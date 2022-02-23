@@ -1,6 +1,9 @@
+Rohit Garate Done some changes
+new changes inserted for merge conflict
 shaqib shaikh
 Pravin Mishra in wlcome.txt
 rahul is here
 Rohit Garate Done some change
 Pankaj Shinde edited welcome.txt file
 
+new changes done after merge conflict
