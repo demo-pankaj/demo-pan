@@ -1,1 +1,21 @@
+.box {
+    margin-top: 20px;
+    width: 250px;
+    height: 550px;
+    border: 2px solid black;    
+}
 
+.box1 {
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    animation: move1 2s infinite alternate;
+    position: relative;
+}
+@keyframes move1 {
+    0% {top : 10%}
+    100% {top : 85%}
+}
