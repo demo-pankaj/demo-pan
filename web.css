@@ -1,1 +1,17 @@
+/* css edits for circle of left box -rohit*/
+.circ{
+    
+    margin: 150px;
+    border:2px solid black;
+    background-color: mediumseagreen;
+    border-radius: 500%;
+    width: 100px;   
+    height: 100px;
+    animation: move 1s alternate infinite;
+    position: relative;
+}
 
+@keyframes move {
+    0%{bottom: 100px;}
+    100%{top: 300px;}
+}
