@@ -90,6 +90,48 @@
 @keyframes box21{
     0%{ transform: rotateX(0deg) ; background-color: black;}
     100%{transform: rotateX(360deg); background-color: aliceblue;}
+
+}
+
+@keyframes box31{
+    0%{ transform: rotateY(0deg); background-color: chartreuse;}
+    100%{transform: rotateY(360deg); background-color: crimson;}
+}
+
+.b-box{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+    0%{left:0px;
+        top:0px;
+        background-color: magenta;
+    }
+
+    25%{left: 534px;
+        top:0px;
+        background-color: maroon;
+    }
+    50%{left: 534px;
+        top:120px;
+        background-color: moccasin;
+    }
+    75%{left: 0px;
+        top:120px;
+        background-color: black;
+    }
+    100%{left: 0px;
+        top:0px;
+        background-color: purple;
+    }
+       
+
 }
 
 @keyframes box31{
