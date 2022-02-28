@@ -6,7 +6,7 @@
 .main{
     height: 500px;
     width: 1000px;
-    background-color: black;
+    background-color: red;
     position: absolute;
     top: 40px;
     left: 163px;
@@ -22,7 +22,7 @@
 .t-right{
     height: 180px;
     width: 634px;
-    background-color: blue;
+    background-color: yellow;
     position: relative;
     top: -379px; 
     left: 344px;
@@ -75,6 +75,7 @@
     top: -351px;
     left: 344px;
 }
+/*made by shaqib*/
 .squre{
     height: 100px; width: 100px;
     background-color: royalblue;
